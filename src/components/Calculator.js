@@ -5,7 +5,7 @@ function Calculator() {
   const handleClick = () => {
     // Handle click logic here
   };
-  
+
   return (
     <div className="calculator">
       <div className="display">0</div>
