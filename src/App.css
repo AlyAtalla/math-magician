@@ -13,7 +13,6 @@
   }
 }
 
-/* Add an empty line before the next rule */
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -30,8 +29,7 @@
 }
 
 @keyframes
-
-App-logo-spin {
+ App-logo-spin {
   from {
     transform: rotate(0deg);
   }
