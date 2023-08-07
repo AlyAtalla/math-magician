@@ -1,15 +1,10 @@
 import React from 'react';
-import './App.css';
+import Calculator from './components/Calculator';
 
 function App() {
-  // Define your mathematical operation functions here
-
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Math Magician</h1>
-        {/* Your calculator interface and components */}
-      </header>
+      <Calculator />
     </div>
   );
 }
