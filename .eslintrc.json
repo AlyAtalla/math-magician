@@ -9,7 +9,7 @@
     "ecmaFeatures": {
       "jsx": true
     },
-    "ecmaVersion": 2022,  // Update to a more recent version of ECMAScript
+    "ecmaVersion": 2022,
     "sourceType": "module"
   },
   "extends": [
@@ -20,9 +20,7 @@
   "plugins": ["react"],
   "rules": {
     "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
-    "react/react-in-jsx-scope": "off",
-    "import/no-unresolved": "off",
-    "no-shadow": "off"
+    "react/react-in-jsx-scope": "off"
   },
   "overrides": [
     {
