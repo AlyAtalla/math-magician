@@ -2,10 +2,10 @@ import React from 'react';
 import './Calculator.css';
 
 function Calculator() {
-  const handleClick = (value) => {
+  const handleClick = () => {
     // Handle click logic here
   };
-
+  
   return (
     <div className="calculator">
       <div className="display">0</div>
