@@ -21,10 +21,10 @@
   margin-top: 10px;
 }
 
-.button-row {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 5px;
+
+
+.button-row:last-child {
+  justify-content: space-around;
 }
 
 .button.operator-button {
@@ -45,4 +45,8 @@ button {
 
 button:hover {
   background-color: #ddd;
+}
+
+.button.zero-button {
+width: 9rem;
 }

@@ -35,7 +35,7 @@ function Calculator() {
           <button type="button" className="button operator-button">+</button>
         </div>
         <div className="button-row">
-          <button type="button" className="button" onClick={() => handleClick(0)}>0</button>
+          <button type="button" className="button zero-button" onClick={() => handleClick(0)}>0</button>
           <button type="button" className="button" onClick={() => handleClick('.')}>.</button>
           <button type="button" className="button operator-button">=</button>
         </div>
