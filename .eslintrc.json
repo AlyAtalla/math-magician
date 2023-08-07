@@ -9,10 +9,14 @@
     "ecmaFeatures": {
       "jsx": true
     },
-    "ecmaVersion": 2018,
+    "ecmaVersion": 2022,  // Update to a more recent version of ECMAScript
     "sourceType": "module"
   },
-  "extends": ["airbnb", "plugin:react/recommended", "plugin:react-hooks/recommended"],
+  "extends": [
+    "airbnb",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended"
+  ],
   "plugins": ["react"],
   "rules": {
     "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
@@ -26,8 +30,5 @@
       "rules": { "no-param-reassign": ["error", { "props": false }] }
     }
   ],
-  "ignorePatterns": [
-    "dist/",
-    "build/"
-  ]
+  "ignorePatterns": ["dist/", "build/"]
 }
