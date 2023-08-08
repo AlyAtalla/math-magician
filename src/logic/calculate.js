@@ -17,7 +17,7 @@ const calculate = (obj, buttonName) => {
         operation: null,
       };
     }
-  return {};
+    return {};
   }
 
   if (buttonName === '.' && obj.next) {
