@@ -13,7 +13,7 @@ function Calculator() {
       setDisplayValue(buttonValue);
       setWaitingForOperand(false);
     } else {
-      setDisplayValue(prevDisplayValue => {
+      setDisplayValue(function(prevDisplayValue) {
         return prevDisplayValue === '0' ? buttonValue : prevDisplayValue + buttonValue;
       });
     }
