@@ -1,6 +1,6 @@
-import Big from 'big.js';
+import { operate } from './operate';
 
-export function calculate(obj, buttonName) {
+const calculate = (obj, buttonName) => {
   if (buttonName === 'AC') {
     return {
       total: null,
@@ -16,16 +16,15 @@ export function calculate(obj, buttonName) {
         next: null,
         operation: null,
       };
-    } else {
+    }  
       return {};
-    }
   }
 
   if (buttonName === '.' && obj.next) {
     if (obj.next.includes('.')) {
       return {};
     }
-    return { next: obj.next + '.' };
+    return { next: `${obj.next}.` };
   }
 
   if (buttonName === '+/-') {
@@ -56,3 +55,5 @@ export function calculate(obj, buttonName) {
     operation: buttonName,
   };
 }
+
+export default calculate;
