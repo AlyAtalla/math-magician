@@ -13,7 +13,9 @@ function Calculator() {
       setDisplayValue(buttonValue);
       setWaitingForOperand(false);
     } else {
-      setDisplayValue(prevDisplayValue => /* eslint-disable arrow-parens */ prevDisplayValue === '0' ? buttonValue : prevDisplayValue + buttonValue);
+      setDisplayValue(prevDisplayValue => {
+        return prevDisplayValue === '0' ? buttonValue : prevDisplayValue + buttonValue;
+      });
     }
   };
 
