@@ -13,14 +13,13 @@
     "sourceType": "module"
   },
   "extends": [
-    "airbnb",
-    "plugin:react/recommended",
-    "plugin:react-hooks/recommended"
+    "airbnb"
   ],
   "plugins": ["react"],
   "rules": {
     "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
-    "react/react-in-jsx-scope": "off"
+    "react/react-in-jsx-scope": "off",
+    "import/prefer-default-export": "off"
   },
   "overrides": [
     {
