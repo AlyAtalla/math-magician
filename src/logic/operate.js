@@ -1,6 +1,6 @@
 import Big from 'big.js';
 
-export function operate(numberOne, numberTwo, operation) {
+export  function operate(numberOne, numberTwo, operation) {
   const one = Big(numberOne || '0');
   const two = Big(numberTwo || '0');
 

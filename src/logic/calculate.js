@@ -16,8 +16,8 @@ const calculate = (obj, buttonName) => {
         next: null,
         operation: null,
       };
-    }  
-      return {};
+    }
+  return {};
   }
 
   if (buttonName === '.' && obj.next) {
@@ -54,6 +54,6 @@ const calculate = (obj, buttonName) => {
     next: null,
     operation: buttonName,
   };
-}
+};
 
 export default calculate;
