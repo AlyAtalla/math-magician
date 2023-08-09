@@ -21,8 +21,8 @@ const Quotes = () => {
         setQuote(data[0]);
         setIsLoading(false);
       })
-      .catch((error) => {
-        setError(error.message);
+      .catch((fetchError) => {
+        setError(fetchError.message);
         setIsLoading(false);
       });
   }, []);
