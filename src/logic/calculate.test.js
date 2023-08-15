@@ -30,5 +30,4 @@ describe('calculate', () => {
     const buttonName = '+/-';
     expect(calculate(obj, buttonName)).toEqual({ total: '3', next: '-2', operation: '+' });
   });
-
 });
